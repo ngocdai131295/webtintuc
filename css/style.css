@@ -1,0 +1,455 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    /* padding: 20px; */
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+a{
+    text-decoration: none;
+    color: #555;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+p{
+    color: #555;
+}
+img{
+    max-width: 100%;
+}
+
+.header img.menu-icon {
+    width: 25px !important;
+    display: none;
+}
+.listmenusub{
+    width: 100%;
+    left: 0;
+    top: 75px;
+    z-index: 990;
+    background-color: white;
+    position: absolute;
+    background: #fff;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.listmenusub h3{
+    text-align: center;
+    text-transform: capitalize;
+}
+.listmenusub img{
+   width: 100%;
+   height: 150px;
+}
+
+.listmenusub li{
+    margin-right: 0px;
+}
+.header{
+    position: relative;
+    background: #98272712;
+}
+#MenuItems>li{
+    padding: 30px 0;
+}
+
+#MenuItems li:hover .listmenusub{
+    opacity: 1;
+    visibility:visible;
+} 
+
+#MenuItems li:hover a{
+color: orange;
+}
+#MenuItems li:hover span{
+    color: orange;
+    }
+/* css cho phần slide home */
+.sliderhome img{
+width: 100%;
+height: 330px;
+
+}
+
+.sliderhome .col.l-6,.sliderhome .col.l-4{
+    position: relative;
+    overflow: hidden;
+}
+
+.sliderhome .col.l-6 .textslider{
+    position: absolute;
+    left: 25px;
+    bottom: 25px;
+}
+
+.sliderhome button {
+    text-transform: capitalize;
+    background: #008000d4;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    font-size: 15px;
+}
+
+.sliderhome h1{
+    color: #fff;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.sliderhome .datePostItemSlide {
+    color: #fff;
+    margin-top: 10px;
+} 
+
+.sliderhome .row .col.l-6 img:hover{
+    transform: scale(1.5);
+    transition: 1s;
+ 
+}
+.sliderhome .row .col.l-4 img:hover{
+    transform: scale(1.5);
+    transition: 1s;
+}
+
+.sliderhome .row .col.l-4 img{
+    height: 245px;
+}
+
+.sliderhome .col.l-4 .textslider{
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+}
+
+/* phần css cho content  */
+.content{
+    margin-top: 40px;
+}
+
+.newitem{
+    margin-bottom: 5px;
+}
+
+.newContent .newitem .col.l-8{
+    position:relative;
+}
+.newContent .newitem .datePostItemSlide {
+    color: #402f2fa8;
+    left: 12px;
+    bottom: 10px;
+    position: absolute;
+}
+.newContent .newtitle .col.l-6 h1{
+    font-size: 25px !important;
+    text-transform: uppercase;
+    color: green;
+    }
+.newContent .newitem .col.l-8 h1 {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 900;
+    padding: 0px 0px;
+}
+
+
+.newContent .newitem:hover h1{
+    color: green;
+}
+
+.newtitle{
+    margin-bottom: 15px;
+}
+
+.newContent .more{
+    display: flex;
+    justify-content: flex-end   ;
+}
+
+.newContent .more a span{
+    font-size: 12px;
+    text-transform: capitalize;
+}
+.newContent {
+    margin-bottom: 25px;
+}
+
+/* css cho phần mục lục content */
+.titleCategory .title h1{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 900;
+    margin-bottom: 15px;
+    color: green;
+}
+
+.titleCategory .col.l-8 h1{
+    font-size: 15px;
+    padding-top: 15px;
+    text-transform: capitalize;
+}
+.titleCategory .p-10{
+    padding-bottom: 10px;
+}
+
+.titleCategory .row:hover h1{
+    color: green;
+}
+
+/* csss cho phần slick */
+.newfarm img{
+    width: 100%;
+    height: 450px;
+}
+
+.newfarm .swiper-slide{
+    position: relative;
+}
+
+.newfarm .textslider{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    width: 50%;
+    text-align: center;
+}
+
+.newfarm .textslider button {
+    text-transform: capitalize;
+    background: #008000d4;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    font-size: 15px;
+}
+
+.newfarm .textslider h1{
+    color: #fff;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.newfarm .textslider .datePostItemSlide {
+    color: #fff;
+    margin-top: 10px;
+} 
+.newfarm h1{
+    font-size: 25px;
+    text-transform: uppercase;
+    color: green;
+    margin-bottom: 12px;
+}
+
+
+/* css cho phần bên trái của content là công nghệ farm */
+.contentfarm .newitem .col.l-8{
+    position:relative;
+}
+.contentfarm .newitem .datePostItemSlide {
+    color: #402f2fa8;
+    left: 12px;
+    bottom: 10px;
+    position: absolute;
+}
+.contentfarm .newtitle .col.l-6 h1{
+    font-size: 25px !important;
+    text-transform: uppercase;
+    color: green;
+    }
+.contentfarm .newitem .col.l-8 h1 {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 900;
+    padding: 10px 0px;
+    text-align: justify;
+}
+
+
+.contentfarm .newitem:hover h1{
+    color: green;
+}
+
+.contentfarm .newitem img {
+    height: 100px;
+    width: 100%;
+}
+
+.infornationfarm .col.l-6{
+    font-size: 25px;
+    color: green;
+    margin: 25px;
+    text-transform: uppercase;
+}
+
+.contentfarm .row> .col.l-5 img.imgleft{
+    width: 100%;
+    height: 530px;
+    background-size: cover;
+}
+.contentfarm .col.l-5{
+    position: relative;
+}
+.contentfarm .col.l-5 .textslider{
+    position: absolute;
+    left: 25px;
+    bottom: 25px;
+}
+
+.contentfarm button {
+    text-transform: capitalize;
+    background: #008000d4;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    font-size: 15px;
+}
+
+.contentfarm .col.l-5 .textslider h1{
+    color: #fff;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.contentfarm .datePostItemSlide {
+    color: #fff;
+    margin-top: 10px;
+} 
+
+
+/* csss cho phần footer */
+#footer h1.title{
+    text-transform: uppercase;
+    color: green;
+    margin: 25px 0;
+    font-size: 25px;
+}
+
+#footer ul li{
+    margin-bottom: 15px;
+    text-align: justify;
+    font-size: 15px;
+}
+
+#footer .col.l-2 ul li{
+    text-transform: uppercase;
+    font-size: 15px;
+    text-align: none !important;
+    font-weight: bold;
+}
+
+#footer .col.l-8  h1{
+    padding: 10px 0 15px 0;
+}
+ 
+#footer .col.l-4 .newitem:hover h1{
+    color: green;
+}
+
+#footer input.form-control {
+    padding: 5px;
+    width: 80%;
+    border: none;
+}
+
+#footer .formemail{
+    width: 100%;
+    border: 1px solid #18180e
+}
+
+#footer .btn{
+    line-height: 34px;
+    width: 51px;
+    text-align: center;
+    height: 34px;
+    display: inline-block;
+  color: green;
+}
+
+#footer .col.l-3 .formemail .btn:hover {
+    color: orange;
+}
+
+#footer{
+    background: #98fb9824;
+    margin-top: 25px;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background: #ff5e00;
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+@media (max-width:1023px){
+    .header img.menu-icon {
+        width: 25px !important;
+        display: block;
+        cursor: pointer;
+    }
+   nav ul{
+        position: absolute;
+        top: 40px;
+        left: 0px;
+        background: #333;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+        z-index:10;
+        height:1500px
+    }
+     nav ul li{
+        display: block;
+        margin: 10px 50px 0px 10px;
+    }
+      nav ul li a{
+        color: #fff;
+        
+    }
+
+    nav ul li.listSub{
+        position: relative;
+    }
+    .listmenusub{
+        width: 100%;
+        left: 0;
+        top: 70px;
+        z-index: 990;
+        background-color: white;
+        position: absolute;
+        height:800px
+    }
+}

@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/thuviencss.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Web tin tức</title>
+</head>
+
+<body>
+    <!-- menu -->
+    <div class="header">
+        <div class="grid wide">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/logo.png" width="125px">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="">Trang chủ</a></li>
+                        <li class="listSub">
+                            <a href="">Tin tức</a>
+                            <span><i class="fa fa-caret-down" aria-hidden="true"></i></span>
+                            <!-- menu cấp con -->
+                            <ul class="row listmenusub">
+                                <li class="col l-3 c-12">
+                                    <img src="images/top5-farmstay-huu-co-dep-o-thai-lan.jpg"
+                                        alt="top5-farmstay-huu-co-dep-o-thai-lan.jpg">
+                                    <h3>Top 5 farmstay hữu cơ đẹp ở Thái Lan</h3>
+                                </li>
+                                <li class="col l-3 c-12">
+                                    <img src="images/nghe-an-mo-cua-canh-dong-hoa-huong-duong-1.jpg"
+                                        alt="top5-farmstay-huu-co-dep-o-thai-lan.jpg">
+                                    <h3>Nghệ An mở cửa cánh đồng hoa hướng dương</h3>
+                                </li>
+                                <li class="col l-3 c-12">
+                                    <img src="images/top5-farmstay-huu-co-dep-o-thai-lan.jpg"
+                                        alt="top5-farmstay-huu-co-dep-o-thai-lan.jpg">
+                                    <h3>Top 5 farmstay hữu cơ đẹp ở Thái Lan</h3>
+                                </li>
+                                <li class="col l-3 c-12">
+                                    <img src="images/tu-van-trong-rau-thuy-canh-33.png"
+                                        alt="top5-farmstay-huu-co-dep-o-thai-lan.jpg">
+                                    <h3>Sinh viên kiến tạo nhiều giải pháp công nghệ cho lĩnh vực nông nghiệp</h3>
+                                </li>
+                            </ul>
+
+                        </li>
+                        <li class="listSub">
+                            <a href="">Công nghệ</a>
+                            <span><i class="fa fa-caret-down" aria-hidden="true"></i></span>
+                            <ul class="row listmenusub">
+                                <li class="col l-3">
+                                    <img src="images/top5-farmstay-huu-co-dep-o-thai-lan.jpg"
+                                        alt="top5-farmstay-huu-co-dep-o-thai-lan.jpg">
+                                    <h3>Top 5 farmstay hữu cơ đẹp ở Thái Lan</h3>
+                                </li>
+                                <li class="col l-3">
+                                    <img src="images/nghe-an-mo-cua-canh-dong-hoa-huong-duong-1.jpg"
+                                        alt="top5-farmstay-huu-co-dep-o-thai-lan.jpg">
+                                    <h3>Nghệ An mở cửa cánh đồng hoa hướng dương</h3>
+                                </li>
+                                <li class="col l-3">
+                                    <img src="images/top5-farmstay-huu-co-dep-o-thai-lan.jpg"
+                                        alt="top5-farmstay-huu-co-dep-o-thai-lan.jpg">
+                                    <h3>Top 5 farmstay hữu cơ đẹp ở Thái Lan</h3>
+                                </li>
+                                <li class="col l-3">
+                                    <img src="images/tu-van-trong-rau-thuy-canh-33.png"
+                                        alt="top5-farmstay-huu-co-dep-o-thai-lan.jpg">
+                                    <h3>Sinh viên kiến tạo nhiều giải pháp công nghệ cho lĩnh vực nông nghiệp</h3>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="listSub">
+                            <a href="">Cẩm nang du lịch</a>
+                            <span><i class="fa fa-caret-down" aria-hidden="true"></i></span>
+                            <ul class="row listmenusub">
+                                <li class="col l-3">
+                                    <img src="images/top5-farmstay-huu-co-dep-o-thai-lan.jpg"
+                                        alt="top5-farmstay-huu-co-dep-o-thai-lan.jpg">
+                                    <h3>Top 5 farmstay hữu cơ đẹp ở Thái Lan</h3>
+                                </li>
+                                <li class="col l-3">
+                                    <img src="images/nghe-an-mo-cua-canh-dong-hoa-huong-duong-1.jpg"
+                                        alt="top5-farmstay-huu-co-dep-o-thai-lan.jpg">
+                                    <h3>Nghệ An mở cửa cánh đồng hoa hướng dương</h3>
+                                </li>
+                                <li class="col l-3">
+                                    <img src="images/top5-farmstay-huu-co-dep-o-thai-lan.jpg"
+                                        alt="top5-farmstay-huu-co-dep-o-thai-lan.jpg">
+                                    <h3>Top 5 farmstay hữu cơ đẹp ở Thái Lan</h3>
+                                </li>
+                                <li class="col l-3">
+                                    <img src="images/tu-van-trong-rau-thuy-canh-33.png"
+                                        alt="top5-farmstay-huu-co-dep-o-thai-lan.jpg">
+                                    <h3>Sinh viên kiến tạo nhiều giải pháp công nghệ cho lĩnh vực nông nghiệp</h3>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="listSub">
+                            <a href="">Bất động sản</a>
+                            <span><i class="fa fa-caret-down" aria-hidden="true"></i></span>
+                            <ul class="row listmenusub">
+                                <li class="col l-3">
+                                    <img src="images/top5-farmstay-huu-co-dep-o-thai-lan.jpg"
+                                        alt="top5-farmstay-huu-co-dep-o-thai-lan.jpg">
+                                    <h3>Top 5 farmstay hữu cơ đẹp ở Thái Lan</h3>
+                                </li>
+                                <li class="col l-3">
+                                    <img src="images/nghe-an-mo-cua-canh-dong-hoa-huong-duong-1.jpg"
+                                        alt="top5-farmstay-huu-co-dep-o-thai-lan.jpg">
+                                    <h3>Nghệ An mở cửa cánh đồng hoa hướng dương</h3>
+                                </li>
+                                <li class="col l-3">
+                                    <img src="images/top5-farmstay-huu-co-dep-o-thai-lan.jpg"
+                                        alt="top5-farmstay-huu-co-dep-o-thai-lan.jpg">
+                                    <h3>Top 5 farmstay hữu cơ đẹp ở Thái Lan</h3>
+                                </li>
+                                <li class="col l-3">
+                                    <img src="images/tu-van-trong-rau-thuy-canh-33.png"
+                                        alt="top5-farmstay-huu-co-dep-o-thai-lan.jpg">
+                                    <h3>Sinh viên kiến tạo nhiều giải pháp công nghệ cho lĩnh vực nông nghiệp</h3>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="">Liên hệ</a></li>
+                        <li><i class="fa fa-search" aria-hidden="true"></i></li>
+                    </ul>
+                </nav>
+                <!-- <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a> -->
+                <img src="images/menu.png" class="menu-icon">
+            </div>
+        </div>
+    </div>
+    <!-- hết phần menu -->
+
+    <section class="sliderhome">
+
+        <div class="row">
+            <div class="col l-6 c-12 m-6">
+                <a href="">
+                    <img src="images/bandat.jpg" alt="">
+                </a>
+                <div class="textslider">
+                    <a href="">
+                        <button>
+                            bất động sản nông nghiệp
+                        </button>
+                    </a>
+                    <a href="">
+                        <h1>bán đất nông nghiệp giá 400tr/ha</h1>
+                    </a>
+                    <div class="datePostItemSlide">
+                        <span class="datePost"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;21 Tháng 07
+                            2020</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col l-6 c-12 m-6">
+                <a href="">
+                    <img src="images/DL-Vinamilk-Organic-Milk-Farm-1.jpg" alt="">
+                </a>
+                <div class="textslider">
+                    <a href="">
+                        <button>
+                            cẩm nang du lịch
+                        </button>
+                    </a>
+                    <a href="">
+                        <h1>5 nông trại đẹp nhất đà lạt</h1>
+                    </a>
+                    <div class="datePostItemSlide">
+                        <span class="datePost"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;21 Tháng 07
+                            2020</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col l-4 c-12 m-4">
+                <a href="">
+                    <img src="images/mo-hinh-farmstay-dep.jpg" alt="">
+                </a>
+                <div class="textslider">
+                    <a href="">
+                        <button>
+                            tin mới
+                        </button>
+                    </a>
+                    <a href="">
+                        <h1>mô hình farmstay có phải du lịch</h1>
+                    </a>
+                    <div class="datePostItemSlide">
+                        <span class="datePost"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;21 Tháng 07
+                            2020</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col l-4 c-12 m-4">
+                <a href="">
+                    <img src="images/top5-farmstay-huu-co-dep-o-thai-lan.jpg" alt="">
+                </a>
+                <div class="textslider">
+                    <a href="">
+                        <button>
+                            tin tức farmstay
+                        </button>
+                    </a>
+                    <a href="">
+                        <h1>top 5 hữu cơ farmstay đẹp</h1>
+                    </a>
+                    <div class="datePostItemSlide">
+                        <span class="datePost"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;21 Tháng 07
+                            2020</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col l-4 c-12 m-4">
+                <a href="">
+                    <img src="images/o-nhiem-khong-khi-Ha-noi-va-tp-ho-chi-minh.jpg" alt="">
+                </a>
+                <div class="textslider">
+                    <a href="">
+                        <button>
+                            cẩm nang du lịch
+                        </button>
+                    </a>
+                    <a href="">
+                        <h1>ôi nhiễm không khí ở việt nam</h1>
+                    </a>
+                    <div class="datePostItemSlide">
+                        <span class="datePost"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;21 Tháng 07
+                            2020</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- phần nội dung -->
+    <section class="content">
+        <div class="wide">
+            <div class="row">
+                <div class="col l-8 c-12">
+                    <div class="newfarm">
+                        <h1>tin tức farm</h1>
+                        <!-- Swiper -->
+                        <div class="swiper-container swiper-slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="images/mo-hinh-farmstay-dep.jpg" class="img-fluid w-100" alt="Slider" />
+                                    <div class="textslider">
+                                        <a href="">
+                                            <button>
+                                                bất động sản nông nghiệp
+                                            </button>
+                                        </a>
+                                        <a href="">
+                                            <h1>bán đất nông nghiệp giá 400tr/ha</h1>
+                                        </a>
+                                        <div class="datePostItemSlide">
+                                            <span class="datePost"><i class="fa fa-calendar"
+                                                    aria-hidden="true"></i>&nbsp;21 Tháng 07
+                                                2020</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <img src="images/chay-lap-farmstay-quang-binh-slick1.jpg" class="img-fluid w-100"
+                                        alt="Slider" />
+                                    <div class="textslider">
+                                        <a href="">
+                                            <button>
+                                                cẩm nang du lịch
+                                            </button>
+                                        </a>
+                                        <a href="">
+                                            <h1>trải nghiệm nghỉ dưỡng ở đà lạt</h1>
+                                        </a>
+                                        <div class="datePostItemSlide">
+                                            <span class="datePost"><i class="fa fa-calendar"
+                                                    aria-hidden="true"></i>&nbsp;21 Tháng 07
+                                                2020</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <img src="images/homestay-hinh-thung-ruou-o-da-lat5.jpg" class="img-fluid w-100"
+                                        alt="Slider" />
+                                    <div class="textslider">
+                                        <a href="">
+                                            <button>
+                                                cẩm nang du lịch
+                                            </button>
+                                        </a>
+                                        <a href="">
+                                            <h1>Homestay hình thùng rượu ở đà lạt</h1>
+                                        </a>
+                                        <div class="datePostItemSlide">
+                                            <span class="datePost"><i class="fa fa-calendar"
+                                                    aria-hidden="true"></i>&nbsp;21 Tháng 07
+                                                2020</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Add Pagination -->
+                            <div class="swiper-pagination"></div>
+                        </div>
+                        <!-- end Swiper -->
+                    </div>
+                    <!-- hết phần slick slider tin tức farm -->
+
+                    <!-- công nghệ farm -->
+                    <div class="infornationfarm">
+                        <div class="row">
+                            <div class="col l-6">
+                                <h1>Công nghệ farm</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contentfarm">
+                        <div class="row">
+                            <div class="col l-5 c-12 m-12">
+                                <img src="images/nong-nghiep-sạc-israel-2.jpg" class="imgleft" alt="">
+                                <div class="textslider">
+                                    <a href="">
+                                        <button>
+                                            bất động sản nông nghiệp
+                                        </button>
+                                    </a>
+                                    <a href="">
+                                        <h1>bán đất nông nghiệp giá 400tr/ha</h1>
+                                    </a>
+                                    <div class="datePostItemSlide">
+                                        <span class="datePost"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;21
+                                            Tháng 07
+                                            2020</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-7 c-12 m-12">
+                                <div class="row newitem">
+                                    <div class="col l-4 c-4 ">
+                                        <a href="">
+                                            <img src="images/mo-hinh-farmstay-dep.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="col l-8 c-8">
+                                        <a href="">
+                                            <h1>Farmstay có phải loại hình du lịch nông nghiệp không và những điều cần
+                                                biết </h1>
+                                        </a>
+                                        <div class="datePostItemSlide">
+                                            <span class="datePost">
+                                                <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;21
+                                                Tháng
+                                                07
+                                                2020</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row newitem">
+                                    <div class="col l-4 c-4">
+                                        <a href="">
+                                            <img src="images/mo-hinh-farmstay-dep.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="col l-8 c-8">
+                                        <a href="">
+                                            <h1>Farmstay có phải loại hình du lịch nông nghiệp không và những điều cần
+                                                biết </h1>
+                                        </a>
+                                        <div class="datePostItemSlide">
+                                            <span class="datePost">
+                                                <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;21
+                                                Tháng
+                                                07
+                                                2020</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row newitem">
+                                    <div class="col l-4 c-4">
+                                        <a href="">
+                                            <img src="images/mo-hinh-farmstay-dep.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="col l-8 c-8">
+                                        <a href="">
+                                            <h1>Farmstay có phải loại hình du lịch nông nghiệp không và những điều cần
+                                                biết </h1>
+                                        </a>
+                                        <div class="datePostItemSlide">
+                                            <span class="datePost">
+                                                <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;21
+                                                Tháng
+                                                07
+                                                2020</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row newitem">
+                                    <div class="col l-4 c-4">
+                                        <a href="">
+                                            <img src="images/mo-hinh-farmstay-dep.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="col l-8 c-8">
+                                        <a href="">
+                                            <h1>Farmstay có phải loại hình du lịch nông nghiệp không và những điều cần
+                                                biết </h1>
+                                        </a>
+                                        <div class="datePostItemSlide">
+                                            <span class="datePost">
+                                                <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;21
+                                                Tháng
+                                                07
+                                                2020</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row newitem">
+                                    <div class="col l-4 c-4">
+                                        <a href="">
+                                            <img src="images/mo-hinh-farmstay-dep.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="col l-8 c-8">
+                                        <a href="">
+                                            <h1>Farmstay có phải loại hình du lịch nông nghiệp không và những điều cần
+                                                biết </h1>
+                                        </a>
+                                        <div class="datePostItemSlide">
+                                            <span class="datePost">
+                                                <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;21
+                                                Tháng
+                                                07
+                                                2020</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l-4 c-12">
+                    <div class="newContent">
+                        <div class="row newtitle">
+                            <div class="col l-6 c-6">
+                                <h1>TIN MỚI</h1>
+                            </div>
+                            <div class="col l-6 c-6 more">
+                                <a href="">
+                                    <span>xem thêm
+                                        <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                                    </span>
+
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="row newitem">
+                            <div class="col l-4 c-4 m-4">
+                                <a href="">
+                                    <img src="images/mo-hinh-farmstay-dep.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="col l-8 c-8 m-8">
+                                <a href="">
+                                    <h1>Farmstay có phải loại hình du lịch nông nghiệp không </h1>
+                                </a>
+                                <div class="datePostItemSlide">
+                                    <span class="datePost">
+                                        <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;21
+                                        Tháng
+                                        07
+                                        2020</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row newitem">
+                            <div class="col l-4 c-4 m-4">
+                                <a href="">
+                                    <img src="images/o-nhiem-khong-khi-Ha-noi-va-tp-ho-chi-minh (1).jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="col l-8 c-8 m-8">
+                                <a href="">
+                                    <h1>ôi nhiễm không khí ở việt nam như thế nào</h1>
+                                </a>
+                                <div class="datePostItemSlide">
+                                    <span class="datePost"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;21
+                                        Tháng
+                                        07
+                                        2020</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row newitem">
+                            <div class="col l-4 c-4 m-4">
+                                <a href="">
+                                    <img src="images/bandat.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="col l-8 c-8 m-8">
+                                <a href="">
+                                    <h1>Giá đất ở ninh hòa giá 440tr/ha</h1>
+                                </a>
+                                <div class="datePostItemSlide">
+                                    <span class="datePost"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;21
+                                        Tháng
+                                        07
+                                        2020</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row newitem">
+                            <div class="col l-4 c-4 m-4">
+                                <a href="">
+                                    <img src="images/nghe-an-mo-cua-canh-dong-hoa-huong-duong-1.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="col l-8 c-8  m-8">
+                                <a href="">
+                                    <h1>nghệ an mở cửa cánh đồng hoa hướng dương </h1>
+                                </a>
+                                <div class="datePostItemSlide">
+                                    <span class="datePost"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;21
+                                        Tháng
+                                        07
+                                        2020</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row newitem">
+                            <div class="col l-4 c-4 m-4">
+                                <a href=""> <img src="images/DL-Vinamilk-Organic-Milk-Farm-1.jpg" alt=""></a>
+                            </div>
+                            <div class="col l-8 c-8 m-8">
+                                <a href="">
+                                    <h1>Đà lạt vinamilk organic milk farm</h1>
+                                </a>
+                                </h1>
+                                <div class="datePostItemSlide">
+                                    <span class="datePost"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;21
+                                        Tháng
+                                        07
+                                        2020</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- hết phần tin mới -->
+
+                    <!-- phần chuyên mục -->
+                    <div class="titleCategory">
+                        <div class="title">
+                            <h1>chuyên mục</h1>
+                        </div>
+                        <div class="row p-10">
+                            <div class="col l-4 c-4">
+                                <a href=""><img src="images/thumbnail_cat.jpg" alt=""></a>
+                            </div>
+                            <div class="col l-8 c-8">
+                                <h1>cẩm nang du lịch</h1>
+                            </div>
+                        </div>
+                        <div class="row p-10">
+                            <div class="col l-4 c-4">
+                                <a href=""><img src="images/thumbnail_cat.jpg" alt=""></a>
+                            </div>
+                            <div class="col l-8 m-8">
+                                <h1>tin tức farm</h1>
+                            </div>
+                        </div>
+                        <div class="row p-10">
+                            <div class="col l-4 c-4">
+                                <a href=""><img src="images/thumbnail_cat.jpg" alt=""></a>
+                            </div>
+                            <div class="col l-8 c-8">
+                                <h1>công nghệ farm</h1>
+                            </div>
+                        </div>
+                        <div class="row p-10">
+                            <div class="col l-4 c-4">
+                                <a href=""><img src="images/thumbnail_cat.jpg" alt=""></a>
+                            </div>
+                            <div class="col l-8 c-8">
+                                <h1>bất động sản nông nghiệp</h1>
+                            </div>
+                        </div>
+                        <div class="row p-10">
+                            <div class="col l-4 c-4">
+                                <a href=""><img src="images/thumbnail_cat.jpg" alt=""></a>
+                            </div>
+                            <div class="col l-8 c-8">
+                                <h1>farm stay</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- phần footer -->
+    <div id="footer">
+        <div class="wide">
+            <div class="row">
+                <div class="col l-3 c-12 m-6">
+                    <h1 class="title">giới thiệu</h1>
+                    <ul>
+                        <li>
+                            <p>Farmstay trang thông tin - tin tức tổng hợp công nghệ, du lịch và các hoạt động liên quan
+                                đến mô hình trang trại.</p>
+                        </li>
+                        <li>
+                            <p><strong>Hotline</strong>:0122333333</p>
+                        </li>
+                        <li>
+                            <p>
+                                <strong>Email</strong> abcd@gmail.com
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <strong>Địa chỉ</strong> thành phố nha trang
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col l-2 c-12 m-6">
+                    <h1 class="title">liên kết</h1>
+                    <ul>
+                        <li>
+                            <a href="">
+                                <span>
+                                    <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                                </span>
+                            </a>
+                            tin tức
+                        </li>
+                        <li>
+                            <a href="">
+                                <span>
+                                    <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                                </span>
+                            </a>
+                            công nghệ
+                        </li>
+                        <li>
+                            <a href="">
+                                <span>
+                                    <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                                </span>
+                            </a>
+                            cẩm nang du lịch
+                        </li>
+                        <li>
+                            <a href="">
+                                <span>
+                                    <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                                </span>
+                            </a>
+                            bất động sản
+                        </li>
+                        <li>
+                            <a href="">
+                                <span>
+                                    <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                                </span>
+                            </a>
+                            hình ảnh
+                        </li>
+                        <li>
+                            <a href="">
+                                <span>
+                                    <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                                </span>
+                            </a>
+                            video
+                        </li>
+                        <li>
+                            <a href="">
+                                <span>
+                                    <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                                </span>
+                            </a>
+                            liên hệ
+                        </li>
+                    </ul>
+                </div>
+                <div class="col l-4 c-12 m-7">
+                    <h1 class="title">bài viết gần đây</h1>
+                    <div class="row newitem">
+                        <div class="col l-4 c-4 m-4">
+                            <a href="">
+                                <img src="images/mo-hinh-farmstay-dep.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="col l-8 c-8 m-8">
+                            <a href="">
+                                <h1>Farmstay có phải loại hình du lịch nông nghiệp không </h1>
+                            </a>
+                            <div class="datePostItemSlide">
+                                <span class="datePost">
+                                    <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;21
+                                    Tháng
+                                    07
+                                    2020</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row newitem">
+                        <div class="col l-4 c-4 m-4">
+                            <a href="">
+                                <img src="images/mo-hinh-farmstay-dep.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="col l-8 c-8 m-8">
+                            <a href="">
+                                <h1>Farmstay có phải loại hình du lịch nông nghiệp không </h1>
+                            </a>
+                            <div class="datePostItemSlide">
+                                <span class="datePost">
+                                    <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;21
+                                    Tháng
+                                    07
+                                    2020</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row newitem">
+                        <div class="col l-4 c-4 m-4">
+                            <a href="">
+                                <img src="images/mo-hinh-farmstay-dep.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="col l-8 c-8 m-8">
+                            <a href="">
+                                <h1>Farmstay có phải loại hình du lịch nông nghiệp không </h1>
+                            </a>
+                            <div class="datePostItemSlide">
+                                <span class="datePost">
+                                    <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;21
+                                    Tháng
+                                    07
+                                    2020</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l-3 c-12 m-5">
+                    <h1 class="title">đăng kí nhận mail</h1>
+                    <div class="formemail">
+                        <input class="form-control" type="text" name="" placeholder="Email">
+                        <a href="" class="btn">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                    <h1 class="title">theo dõi chúng tôi</h1>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="back-to-top">
+        <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    </div>
+
+
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
