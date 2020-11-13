@@ -9,11 +9,6 @@ $(document).ready(function () {
         autoplaySpeed: 1000,
     });
 
-    //menu open
-    $(".menu-icon").click(function (e) {
-        e.preventDefault();
-        $("#MenuItems").slideToggle();
-    });
 
     // back to top
     $('.back-to-top').on('click', function () {
@@ -34,4 +29,15 @@ $(document).ready(function () {
         }
 
     })
+
+
+    // menu open
+    $(".menu-icon").on("click", function () {
+        $(".section__menu").addClass("active");
+    });
+
+    // menu close
+    $(".section__menu-header-times, .overplay").on("click", function () {
+        $(".section__menu").removeClass("active");
+    });
 });

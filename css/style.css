@@ -47,7 +47,7 @@ img{
     width: 25px !important;
     display: none;
 }
-.listmenusub{
+.header .listmenusub{
     width: 100%;
     left: 0;
     top: 75px;
@@ -59,16 +59,16 @@ img{
     visibility: hidden;
 }
 
-.listmenusub h3{
+.header .listmenusub h3{
     text-align: center;
     text-transform: capitalize;
 }
-.listmenusub img{
+.header .listmenusub img{
    width: 100%;
    height: 150px;
 }
 
-.listmenusub li{
+.header .listmenusub li{
     margin-right: 0px;
 }
 .header{
@@ -414,13 +414,105 @@ height: 330px;
     cursor: pointer;
 }
 
+
+
+
+/* menu reposive */
+.section__menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 330px;
+    height: 100%;
+    background-color: #ffffff;
+    z-index: 999;
+    padding: 20px 15px;
+    overflow-y: scroll;
+    /* overflow: auto; */
+    height: 100%;
+     transform: translateX(-330px);  
+    opacity: 0; 
+     visibility: hidden;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.section__menu.active {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible; }
+
+.section__menu-header{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom: 10px;
+}
+.section__menu-header .section__menu-header-name {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.5px; 
+}
+.section__menu-header .section__menu-header-times {
+    font-size: 20px;
+    cursor: pointer; 
+}
+
+.section__menu-content {
+    padding-top: 20px; }
+    .section__menu-content-input {
+      height: 45px;
+      padding-left: 20px !important;
+      border: 2px solid #408ed4; }
+      .section__menu-content-btn {
+      background-color: #408ed4;
+      color: #ffffff;
+      border: 0;
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+      padding: 0 25px; }
+      .section__menu-content-btn:hover {
+        background-color: #333; }
+    .section__menu-content-item a {
+      font-size: 14px;
+      font-weight: 400;
+      text-transform: capitalize;
+      display: block;
+      padding-bottom: 10px;
+      margin-bottom: 10px;
+      border-bottom: 1px solid #ebebeb; }
+    .section__menu-content-item:last-child a {
+      border: 0; }
+
+      .position-relative{
+          position: relative;
+      }
+      .pt-4{
+          padding-top: 10px;
+      }
+/* hết menu reposive */
+
+/* menu con */
+.section__menu-content-item .listmenusub{
+   display: none;
+   height: 100%;
+}
+
+.section__menu-content-item:hover .listmenusub{
+    display: block;
+ }
+
+
+/* repónive cho màn hình điện thoại và màn hình tablet */
 @media (max-width:1023px){
     .header img.menu-icon {
         width: 25px !important;
         display: block;
         cursor: pointer;
     }
-   nav ul{
+    /* nav ul{
         position: absolute;
         top: 40px;
         left: 0px;
@@ -436,14 +528,14 @@ height: 330px;
         margin: 10px 50px 0px 10px;
     }
       nav ul li a{
-        color: #fff;
-        
-    }
+        color: #fff; 
+    }  */
 
-    nav ul li.listSub{
+     nav ul li.listSub{
         position: relative;
     }
-    .listmenusub{
+
+    /* .listmenusub{
         width: 100%;
         left: 0;
         top: 70px;
@@ -451,5 +543,12 @@ height: 330px;
         background-color: white;
         position: absolute;
         height:800px
+    } */
+    #MenuItems{
+        opacity: 0;
+        visibility: hidden;
+    }
+    .navbar{
+        height: 65px;
     }
 }
